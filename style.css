@@ -45,6 +45,7 @@ body {
   height: 2rem;
   width: 5rem;
   border: none;
+  outline: none;
   overflow: hidden;
   background-color: hsl(240, 5%, 91%);
   border-radius: 10px 0px 0px 10px;
@@ -76,4 +77,11 @@ button {
     margin-top: -1rem;
     border: none;
     border-radius: 12px;
+}
+@media only screen and (max-width: 850px) {
+  .container {
+    padding: 1rem;
+    width: 23rem;
+    
+  }
 }
